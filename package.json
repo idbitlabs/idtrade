@@ -1,0 +1,14 @@
+{
+  "name": "idtrade-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:landing": "cd apps/landing && npm run dev",
+    "dev:trade-app": "cd apps/trade-app && npm run dev",
+    "build:landing": "cd apps/landing && npm run build",
+    "build:trade-app": "cd apps/trade-app && npm run build"
+  }
+}
